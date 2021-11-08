@@ -91,5 +91,20 @@
         duration-300
       ;
     }
+
+    .card-icon {
+      font-family: "WebSymbolsRegular";
+      @apply
+        block
+        w-full
+        h-32
+        text-5xl
+        text-center
+        mt-12
+        mx-auto
+        transition
+        duration-300
+      ;
+    }
     
 }
