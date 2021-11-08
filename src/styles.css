@@ -119,5 +119,16 @@
         duration-300
       ;
     }
+
+    .card-description {
+      font-family: "TrebuchetMS";
+      @apply
+        text-center
+        text-azul-oscuro
+        text-base
+        transition
+        duration-300
+      ;
+    }
     
 }
