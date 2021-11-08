@@ -51,6 +51,7 @@
 
 @layer components {
 
+    /*Estilos menú*/
     .menu-item{
         @apply
           mr-5
@@ -65,9 +66,30 @@
         @apply block transition duration-200 hover:text-azul-claro transform hover:scale-125;
     }
 
+    /*Estilos banner*/
     .text-banner {
       font-family: "BebasNeue";
       text-shadow: 2px 2px 1px black;
+    }
+
+    /*Estilos tarjetas*/
+    .card {
+      @apply
+        flex-1
+        h-80
+        border-2
+        border-gray-200
+        shadow-md
+        bg-white
+        overflow-hidden
+        m-5
+        mt-10
+        pl-5
+        pr-5
+        cursor-pointer
+        transition
+        duration-300
+      ;
     }
     
 }
