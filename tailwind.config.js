@@ -30,6 +30,7 @@ module.exports = {
                 'bg-banner': 'backBanner 10s linear',
                 'text-banner': 'showBannerText 10s linear',
                 'show-card-icon': 'showCardIcon 300ms linear',
+                'show-card-category': 'showCardCategory 400ms linear',
             },
             keyframes: {
                 fromBellow: {
@@ -70,6 +71,14 @@ module.exports = {
                 showCardIcon: {
                     'from': {
                         transform: "translateY(-200%)"
+                    },
+                    'to': {
+                        transform: "translateY(0%)"
+                    }
+                },
+                showCardCategory: {
+                    'from': {
+                        transform: "translateY(-300%)"
                     },
                     'to': {
                         transform: "translateY(0%)"
