@@ -75,6 +75,7 @@
     /*Estilos tarjetas*/
     .card {
       @apply
+        group
         flex-1
         h-80
         border-2
@@ -89,6 +90,7 @@
         cursor-pointer
         transition
         duration-300
+        hover:bg-black
       ;
     }
 
