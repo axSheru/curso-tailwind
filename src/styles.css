@@ -91,6 +91,11 @@
         transition
         duration-300
         hover:bg-black
+
+        xs:h-40
+        xs:m-2
+        lg:h-80
+        lg:m-5
       ;
     }
 
@@ -107,10 +112,16 @@
         mx-auto
         transition
         duration-300
+
+        xs:mt-3
+        xs:h-20
+        lg:mt-12
+        lg:h-32
       ;
     }
 
     .card-category {
+      font-family: "TrebuchetMS";
       @apply
         w-full
         h-12
@@ -120,6 +131,11 @@
         text-azul-oscuro
         transition
         duration-300
+
+        xs:text-base
+        xs:h-6
+        lg:text-lg
+        lg:h-12
       ;
     }
 
@@ -131,6 +147,13 @@
         text-base
         transition
         duration-300
+
+        xs:hidden
+        lg:block
+        lg:text-sm
+        lg:mt-1.5
+        xl:text-base
+        xl:mt-1
       ;
     }
     
