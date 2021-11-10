@@ -296,5 +296,39 @@
         focus:text-gray-600
       ;
     }
+
+    .login-button {
+      font-family: "TrebuchetMS";
+      @apply
+        w-24
+        h-8
+        mt-5
+        ml-5
+        mb-5
+        text-center
+        text-white
+        text-base
+        font-light
+        border
+        border-azul-oscuro
+        bg-gradient-to-b from-azul-claro to-azul-oscuro
+        rounded-none
+        cursor-pointer
+        transition
+        duration-300
+        hover:shadow-md
+      ;
+    }
+
+    .login-link {
+      @apply
+        block
+        ml-5
+        text-sm
+        text-gray-600
+        hover:underline
+        hover:text-azul-claro
+      ;
+    }
     
 }
