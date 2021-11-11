@@ -398,5 +398,35 @@
         mb-4
       ;
     }
+
+    .footer-menu {
+      @apply
+        text-left
+        m-5
+        text-2xl
+      ;
+    }
+
+    .footer-menu li {
+      @apply
+        mt-3
+        p-1
+        border-b-2
+        border-gray-400
+        transition
+        duration-300
+      ;
+    }
+
+    .footer-menu li a {
+      @apply
+        block
+        h-10
+        transition
+        duration-300
+        text-azul-claro
+        hover:text-white
+      ;
+    }
     
 }
