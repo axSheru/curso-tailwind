@@ -371,5 +371,32 @@
         -translate-x-3/4
       ;
     }
+
+    .footer-box {
+      @apply
+        trebuchet
+        flex-1
+        w-80
+        h-96
+        m-10
+        text-center
+        text-white
+      ;
+    }
+
+    .footer-header {
+      background: url('../img/pxgray.png'), white;
+      @apply
+        bebas
+        tracking-wide
+        text-center
+        text-4xl
+        text-black
+        rounded-md
+        p-1.5
+        pt-2
+        mb-4
+      ;
+    }
     
 }
