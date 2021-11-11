@@ -381,6 +381,14 @@
         m-10
         text-center
         text-white
+        xs:w-11/12
+        xs:mx-auto
+        xs:mt-3
+        md:w-11/12
+        md:mx-auto
+        md:mt-3
+        lg:w-80
+        lg:m-10
       ;
     }
 
